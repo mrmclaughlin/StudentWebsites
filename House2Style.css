@@ -1,0 +1,190 @@
+html{
+	background-image: linear-gradient(rgb(209, 252, 174), rgb(240, 255, 234));
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 150%;
+}
+
+body{
+	width: 80%;
+	padding: 10px 10px;
+	margin: 10px auto;
+	font-family: Georgia, serif;
+	font-size: 15pt;
+	height: -500px;
+}
+
+header{
+	background-color: rgb(32, 81, 23);
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	color: rgb(248, 255, 247);
+}
+
+header h1{
+	background-color: rgb(32, 81, 23);
+	font-size: 30pt;
+	font-family: Helvetica, sans-serif;
+	transform: translate(-230px, 0px);
+	display: inline-block;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	margin-right: 3px;
+}
+
+header h2{
+	background-color: rgb(32, 81, 23);
+	display: inline;
+	font-family: Helvetica, sans-serif;
+	vertical-align: bottom;
+	font-size: 20pt;
+}
+
+nav{
+	float: right;
+	background-color: green;
+	width: 250px;
+	height: 340px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	padding-top: 10px;
+}
+
+nav a{
+	padding-left: 10px;
+	color: red;
+}
+
+#screen{
+	display: inline-block;
+	width: 200px;
+	background-color: black;
+	color: rgb(248, 255, 247);
+	position: relative;
+	bottom: -530px;
+}
+
+#info{
+	float: left;
+	background-color: green;
+	width: 250px;
+	height: 350px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	color: rgb(248, 255, 247);
+}
+
+section#info p{
+	text-align: center;
+	font-size: 17pt;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#main{
+	transform: translate(0px, 100px) scale(0.45);
+	height:300px;
+}
+
+aside{
+	font-size: 200%;
+	position: absolute;
+	top: -140px;
+	left: -625px;
+	width: 470px;
+	padding: 0;
+	display: none;
+	color: rgb(248, 255, 247);
+}
+
+p:hover + aside{
+	display: block;
+}
+
+section#main p{
+	background-color: rgb(148, 170, 145);
+	padding-top: 50px;
+	margin: 5px auto;
+	text-align: center;
+	font-size: 150%;
+}
+
+p#ht{
+	width: 700px;
+	height: 630px;
+}
+
+#main p#Bedroom1{
+	position: absolute;
+	left: -30px;
+	top: 300px;
+	width: 200px;
+	height: 170px;
+}
+
+#main p#Bedroom2{
+	position: absolute;
+	left: -30px;
+	top: 535px;
+	width: 200px;
+	height: 170px;
+}
+
+#main p#Bedroom3{
+	position: absolute;
+	left: 900px;
+	top: 300px;
+	width: 200px;
+	height: 170px;
+}
+
+#main p#Bedroom4{
+	position: absolute;
+	left: 900px;
+	top: 535px;
+	width: 200px;
+	height: 170px;
+}
+
+#main p#br2{
+	position: absolute;
+	top: 770px;
+	left: 85px;
+	width: 440px;
+	height: 170px;
+}
+
+#main p#rr{
+	position: absolute;
+	top: 770px;
+	left: 535px;
+	width: 440px;
+	height: 170px;
+	border: 5px solid rgb(94, 54, 17);
+}
+
+img[alt]{
+	transform: scale(0.3);
+	position: absolute;
+	top:70px;
+	right: 504px;
+	display: none;
+}
+
+p:hover + aside + img{
+	display: block;
+}
+
+footer{
+	background-color: rgb(32, 81, 23);
+	text-align: right;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	color: rgb(248, 255, 247);
+	transform: translate(0px, 460px);
+}
